@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.cdnfonts.com/css/Lato');
+
+html {
+  background-color: #fff;
+  font-family: 'Cocogoose', sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('project-images/images/desktop_bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+}
+
+.first-nav {
+  background-color: #272a31;
+  display: none;
+}
+
+.d-none {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+  margin-right: 200px;
+  list-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #d3d3d3;
+}
+
+.navbar i {
+  color: #d3d3d3;
+}
+
+.menu-list {
+  background-color: #272a31;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}
+
+.climate-logo {
+  display: none;
+}
+
+.menu-list a {
+  text-decoration: none;
+  color: #d3d3d3;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.menu-list li {
+  margin-top: 30px;
+}
+
+.close {
+  color: #d3d3d3;
+  font-size: 30px;
+  align-self: flex-end;
+  margin-right: 40px;
+}
+
+.campaign {
+  border: 2px solid #272a31;
+  padding: 8px;
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fa-bars {
+  font-size: 30px;
+  margin: 12px 0 20px 15px;
+  color: #272a31;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.first-page {
+  background-image: url('images/bg-img.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.red {
+  color: #ec5242;
+}
+
+.black {
+  color: #272a31;
+}
+
+.grey {
+  color: #d3d3d3;
+}
+
+.bg-grey {
+  background-color: #d3d3d3;
+  border: solid 8px #fff;
+  padding: 12px;
+  margin-top: 15px;
+}
+
+.date {
+  font-size: 30px;
+}
+
+.welcome {
+  margin-top: 15px;
+}
+
+.main-prog {
+  background-color: #272a31;
+}
+
+.join {
+  color: #fff;
+  background-color: #ec5242;
+  padding: 25px;
+  border: none;
+  margin: 20px;
+  font-size: 17px;
+}
+
+.comm {
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.at {
+  color: #272a31;
+  margin-bottom: 15px;
+}
+
+.program p {
+  color: #fff;
+}
+
+.program i {
+  color: #fff;
+  font-size: 30px;
+}
+
+.program li {
+  display: flex;
+  margin: 10px auto;
+  padding: 10px;
+  align-items: center;
+  width: 95%;
+  background-color: #3d3a3a7c;
+  gap: 20px;
+}
+
+.program li:hover {
+  border: 2px solid #fff;
+}
+
+.program-head {
+  color: #fff;
+  font-size: 30px;
+  margin: 12px;
+}
+
+.program-line {
+  width: 50px;
+  height: 1px;
+  background-color: #ec5242;
+  margin-bottom: 10px;
+}
+
+.li-of-speakers li {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.li-of-speakers img {
+  margin: 11px;
+  width: 149px;
+  height: 122px;
+}
+
+span {
+  color: #ec5242;
+  font-style: italic;
+}
+
+.speakers {
+  background-color: #fff;
+}
+
+.line-t {
+  background-color: #d3d3d3;
+  margin-bottom: 12px;
+}
+
+.more {
+  background-color: #fff;
+  padding: 20px 128px;
+  margin-bottom: 15px;
+}
+
+.break {
+  background-color: #d3d3d3;
+  width: 35%;
+  height: 2px;
+  margin: 10px 0;
+}
+
+.fs {
+  color: #272a31;
+  margin-top: 50px;
+}
+
+.fs-li {
+  margin-bottom: 35px;
+}
+
+.partner-bg {
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1px;
+  padding: 50px;
+}
+
+.partner-li {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  align-items: center;
+  gap: 50px;
+  list-style-type: none;
+}
+
+.partner-li img {
+  width: 100px;
+}
+
+.checked {
+  background-image: url('images/cheked.webp');
+  background-repeat: no-repeat;
+  position: inherit;
+  background-size: 70px;
+  margin-left: 14px;
+  background-position: -4px 0;
+}
+
+.footer img {
+  width: 80px;
+}
+
+.move {
+  display: flex;
+  gap: 10px;
+}
+
+.footer {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .first-nav {
+    display: block;
+    padding: 5px;
+  }
+
+  .first-page {
+    padding-right: 50px;
+    padding-left: 50px;
+    background-image: url(project-images/images/Destop-bg1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    justify-content: center;
+  }
+
+  .first-page h1 {
+    font-size: 35px;
+    font-weight: 900;
+    width: 100%;
+    letter-spacing: 0.5px;
+    color: white;  /* Fallback: assume this color ON TOP of image */
+    background: url(project-images/Cp-logo.jpg) no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: tomato;
+  }
+
+  .first-page h2 {
+    letter-spacing: 0.5px;
+    color: white;  /* Fallback: assume this color ON TOP of image */
+    background: url(project-images/images/Destop-bg1.jpeg) no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: tomato;
+  }
+
+  .main-prog {
+    padding: 50px;
+  }
+
+  .date {
+    margin-top: 22px;
+  }
+
+  .program {
+    display: flex;
+    gap: 10px;
+  }
+
+  .d-none-d {
+    display: none;
+  }
+
+  .d-d-flex {
+    display: block;
+  }
+
+  .d-desk {
+    margin-right: 50px;
+  }
+
+  .menu-list {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    position: absolute;
+    margin-top: 30px;
+    height: 9vh;
+    justify-content: flex-end;
+  }
+
+  .navbar {
+    margin-right: 60px;
+  }
+
+  .menu-list li {
+    margin-top: 0;
+    margin-right: 30px;
+  }
+
+  .menu-list a {
+    color: #272a31;
+    font-size: 20px;
+    font-weight: normal;
+  }
+
+  .menu-list a:hover {
+    color: #ec5242;
+  }
+
+  .main-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .program li {
+    flex-direction: column;
+  }
+
+  .d-desk-flex {
+    flex-direction: row;
+  }
+
+  .speakers-rows {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 40% 40%;
+    column-gap: 10px;
+  }
+
+  .partner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .partner-li {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    list-style-type: none;
+  }
+
+  .climate-logo {
+    width: 40%;
+    display: block;
+  }
+}

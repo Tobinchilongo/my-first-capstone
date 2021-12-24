@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+.climate-logo {
+  width: 40%;
+}
+
+.events-overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#past-event {
+  background-color: var(--white);
+  border-top: 1px solid var(--terciary);
+}
+
+.inner-past {
+  padding: 10px 0 20px 0;
+}
+
+.past-title {
+  color: var(--primary);
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.3;
+  font-weight: 600;
+  margin: 20px 0 10px 0;
+  opacity: 0.9;
+}
+
+#past-event hr {
+  width: 30px;
+  margin: auto;
+  border: 1px solid var(--secondary);
+}
+
+.past-overlay {
+  background-color: rgba(236, 10, 10, 0.4);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#past-img1 {
+  background-image: url(project-images/images/events/2019.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 180px;
+  margin: 20px 0;
+  width: 90%;
+}
+
+#past-img2 {
+  background-image: url(project-images/images/events/Event4jpg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 180px;
+  margin: 20px 0;
+  gap: 10px;
+  width: 90%;
+}
+
+.event-year {
+  color: #fff;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.event-location {
+  color: #fff;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+body {
+  font-family: 'Cocogoose', Lato, sans-serif;
+}
+
+.first-page {
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+  padding-left: 50px;
+  background-image: url('project-images/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  justify-content: center;
+  text-align: center;
+}
+
+.please {
+  margin: 12px;
+}
+
+.bg-ff {
+  background-color: #fff;
+  border: solid 1px #d3d3d3;
+  margin: 12px;
+  padding: 12px;
+}
+
+.meeting {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.meeting img {
+  width: 94%;
+}
+
+.events {
+  display: flex;
+  justify-content: center;
+}
+
+.mid {
+  display: none;
+}
+
+.program-line {
+  width: 20%;
+}
+
+.program-head {
+  font-size: 24px;
+}
+
+.speakers p {
+  padding: 15px;
+}
+
+.logo {
+  background-color: #fff;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.climate {
+  border: #d3d3d3 solid 1px;
+  padding: 20px;
+  margin: 30px;
+}
+
+.container-head {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 84px;
+}
+
+.menu-lis {
+  background-color: #272a31;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+}
+
+.menu-lis a {
+  text-decoration: none;
+  color: #d3d3d3;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.menu-lis li {
+  margin-top: 30px;
+}
+
+.close {
+  color: #d3d3d3;
+  font-size: 30px;
+  align-self: flex-end;
+  margin-right: 40px;
+}
+
+.normal {
+  font-weight: 600;
+}
+
+@media only screen and (min-width: 768px) {
+  .events-overlay {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #past-img1 {
+    margin: 40px;
+    width: 35%;
+    height: 240px;
+  }
+
+  #past-img2 {
+    margin: 40px;
+    width: 35%;
+    height: 240px;
+  }
+
+  .meeting {
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .mid:hover {
+    opacity: 0.5;
+  }
+
+  .text {
+    background-color: #ec5242;
+    color: #fff;
+    padding: 70px 70px;
+    font-size: 32px;
+  }
+
+  .container-head {
+    border: solid 1px #d3d3d3;
+  }
+
+  .menu-lis {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    position: absolute;
+    margin-top: 30px;
+    height: 9vh;
+    justify-content: flex-end;
+  }
+
+  .navbar {
+    margin-right: 60px;
+  }
+
+  .menu-lis li {
+    margin-top: 0;
+    margin-right: 30px;
+  }
+
+  .menu-lis a {
+    color: #272a31;
+    font-size: 20px;
+    font-weight: normal;
+  }
+
+  .menu-lis a:hover {
+    color: #ec5242;
+  }
+
+  .main-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .partner-li {
+    list-style: none;
+  }
+}
