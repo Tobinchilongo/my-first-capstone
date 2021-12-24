@@ -178,6 +178,11 @@ p {
   font-size: 30px;
 }
 
+.li-of-speakers li {
+  display: flex;
+  margin-bottom: 20px;
+}
+
 .program li {
   display: flex;
   margin: 10px auto;
@@ -203,11 +208,6 @@ p {
   height: 1px;
   background-color: #ec5242;
   margin-bottom: 10px;
-}
-
-.li-of-speakers li {
-  display: flex;
-  margin-bottom: 20px;
 }
 
 .li-of-speakers img {
