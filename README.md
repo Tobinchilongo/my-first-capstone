@@ -7,9 +7,14 @@
 
 
 ![screenshot]()
+![screenshot]()
+
 
 ## Live link
 [Click here to see project]()
+
+## Loom Video Link
+[Watch Video]()
 
 Additional description about the project and its features.
 
@@ -25,8 +30,8 @@ Additional description about the project and its features.
 
 **To get a copy of this repo into your local machine run the following command:**
 ```
-git clone  
-cd the-portal-capstone
+git clone (https://github.com/Tobinchilongo/my-first-capstone)
+cd my-first-capstone
 in visual studio code you can click the go live button to view it live in the browser.
 ```
 
@@ -35,13 +40,6 @@ in visual studio code you can click the go live button to view it live in the br
 👤 **Tobin Chilongo Jnr**
 
 - GitHub: [@Tobinchilongo]()
-
-
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 

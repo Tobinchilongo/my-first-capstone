@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap'); */
 @import url('https://fonts.cdnfonts.com/css/cocogoose');
-@import url('https://fonts.cdnfonts.com/css/Lato');
+
+/* @import url('https://fonts.cdnfonts.com/css/Lato'); */
 
 html {
   background-color: #fff;
@@ -13,13 +14,17 @@ html {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
+  /* border: 1px solid red; */
 }
 
 body {
   background-image: url('project-images/images/desktop_bg.png');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
 }
 
 .first-nav {
@@ -106,9 +111,15 @@ body {
   align-items: center;
 }
 
-p {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
+.i-text {
+  background-color: #d3d3d3;
+  border: 3px solid #fff;
+  font-size: 1.3vw;
+  font-family: "Lato", sans-serif;
+  -webkit-box-sizing: border-box;
+  margin-left: 6rem;
+  width: 40%;
+  height: 23%;
 }
 
 .first-page {
@@ -127,23 +138,32 @@ p {
   color: #272a31;
 }
 
-.grey {
-  color: #d3d3d3;
-}
+.tblack {
+  color: #272a31;
 
-.bg-grey {
-  background-color: #d3d3d3;
-  border: solid 8px #fff;
-  padding: 12px;
-  margin-top: 15px;
+  /* margin-right: 531px; */
 }
 
 .date {
   font-size: 30px;
+  padding-left: 6rem;
+  -webkit-text-fill-color: #272a31;
+}
+
+.tdate {
+  font-size: 30px;
+  font-weight: 400;
+  padding-left: 6rem;
+
+  /* padding-top: 12px; */
+  -webkit-text-fill-color: #272a31;
 }
 
 .welcome {
   margin-top: 15px;
+  text-align: start;
+  padding-left: 4em;
+  margin-bottom: 25px;
 }
 
 .main-prog {
@@ -164,12 +184,13 @@ p {
   margin-top: 15px;
 }
 
-.at {
+.at > p {
   color: #272a31;
   margin-bottom: 15px;
+  padding-top: 20px;
 }
 
-.program p {
+.program {
   color: #fff;
 }
 
@@ -300,6 +321,20 @@ span {
   padding: 20px;
 }
 
+.first-page h1 {
+  font-size: 5vw;
+  padding-bottom: 10px;
+  font-family: "COCOGOOSE", sans-serif;
+  font-weight: bold;
+  line-height: 35px;
+  text-align: left;
+  background-image: url("./project-images/images/flash.jpg");
+  background-position: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0 8px;
+}
+
 @media only screen and (min-width: 768px) {
   .first-nav {
     display: block;
@@ -317,22 +352,41 @@ span {
   }
 
   .first-page h1 {
-    font-size: 35px;
-    font-weight: 900;
-    width: 100%;
-    letter-spacing: 0.5px;
+    font-family: "COCOGOOSE", sans-serif;
+    font-size: 4.5vw;
+    line-height: 100%;
+    width: 49%;
+    margin: 0 100px;
+  }
+
+  /* .first-page h1 {
+    font-family: "COCOGOOSE", sans-serif;
+    font-size: 5vw;
+    line-height: 100%;
+    width: 49%;
+    margin: 0 100px;
     color: white;  /* Fallback: assume this color ON TOP of image */
-    background: url(project-images/Cp-logo.jpg) no-repeat;
+
+  /* background: url(project-images/Cp-logo.jpg) no-repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: tomato;
+  }  */
+
+  .title {
+    font-family: "COCOGOOSE", sans-serif;
+    font-size: 5vw;
+    line-height: 100%;
+    width: 49%;
+    margin: 0 100px;
   }
 
   .first-page h2 {
     letter-spacing: 0.5px;
-    color: white;  /* Fallback: assume this color ON TOP of image */
+    color: white;
     background: url(project-images/images/Destop-bg1.jpeg) no-repeat;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: tomato;
+    -webkit-text-fill-color: #272a31;
+    font-weight: 800;
   }
 
   .main-prog {
@@ -341,6 +395,7 @@ span {
 
   .date {
     margin-top: 22px;
+    text-align: start;
   }
 
   .program {
@@ -426,7 +481,7 @@ span {
   }
 
   .climate-logo {
-    width: 40%;
+    width: 10%;
     display: block;
   }
 }
