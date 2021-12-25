@@ -6,15 +6,15 @@
 
 
 
-![screenshot]()
-![screenshot]()
+![screenshot](Screenshot.png)
+![screenshot](Screenshot1.png)
 
 
 ## Live link
-[Click here to see project]()
+[Click here to see project](https://tobinchilongo.github.io/my-first-capstone/)
 
 ## Loom Video Link
-[Watch Video]()
+[Watch Video](https://www.loom.com/share/3b35dc2c11394d59898b377481cb2935)
 
 Additional description about the project and its features.
 
@@ -39,7 +39,7 @@ in visual studio code you can click the go live button to view it live in the br
 
 👤 **Tobin Chilongo Jnr**
 
-- GitHub: [@Tobinchilongo]()
+- GitHub: [@Tobinchilongo](https://github.com/Tobinchilongo)
 
 ## Show your support
 
