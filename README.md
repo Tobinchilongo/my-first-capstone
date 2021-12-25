@@ -6,8 +6,8 @@
 
 
 
-![screenshot](Pictures/Screenshot.png)
-![screenshot](Pictures/Screenshot1.png)
+![screenshot](project-images/Screenshot.png)
+![screenshot](project-images/Screenshot1.png)
 
 
 ## Live link
